@@ -4,6 +4,8 @@ import com.kms.katalon.core.logging.KeywordLogger
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
+import internal.GlobalVariable
+
 
 KeywordLogger log = new KeywordLogger()
 
@@ -29,7 +31,9 @@ Mobile.tap(findTestObject('Object Repository/Common/By XPATH', [('xpath') : '//*
 
 CustomKeywords.'common.calendar.selectDate'('Jan 15 1995')
 
-Mobile.setText(findTestObject('Object Repository/Common/By ID', [('id') : 'id.co.myhomecredit:id/input_phone_no']), '87864837354', 
+String phoneNumber = GlobalVariable.phoneNumber
+
+Mobile.setText(findTestObject('Object Repository/Common/By ID', [('id') : 'id.co.myhomecredit:id/input_phone_no']), phoneNumber, 
     2)
 
 Mobile.setText(findTestObject('Object Repository/Common/By ID', [('id') : 'id.co.myhomecredit:id/setup_pin']), '1212', 2)
