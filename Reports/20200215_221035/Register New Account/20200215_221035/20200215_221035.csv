@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register New Account,,,,2020-02-15 22:10:39,2020-02-15 22:14:11,3m - 32.704s,INCOMPLETE
+,,,,,,,
+Test Cases/TC01 - Register New Account,,,,2020-02-15 22:10:39,2020-02-15 22:14:11,3m - 32.104s,PASSED
+"startExistingApplication(""id.co.myhomecredit"")",,,,2020-02-15 22:10:40,2020-02-15 22:11:10,30.365s,PASSED
+delay(5),,,,2020-02-15 22:11:10,2020-02-15 22:11:15,5.069s,PASSED
+"while (verifyElementNotExist(findTestObject(""Object Repository/WelcomePage/WelcomePage_DaftarButton""), 5, OPTIONAL))",,,,2020-02-15 22:11:15,2020-02-15 22:11:38,22.994s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/WelcomePage/WelcomePage_DaftarButton""), 5)",,,,2020-02-15 22:11:38,2020-02-15 22:11:38,0.304s,PASSED
+"tap(findTestObject(""Object Repository/WelcomePage/WelcomePage_DaftarButton""), 0)",,,,2020-02-15 22:11:38,2020-02-15 22:11:40,1.529s,PASSED
+"tap(findTestObject(""Object Repository/Common/By XPATH"", [""xpath"":""//*[contains(text(),""Tanggal Lahir"")]""]), 2)",,,,2020-02-15 22:11:40,2020-02-15 22:11:41,1.224s,PASSED
+"common.calendar.selectDate(""Jan 15 1995"")",,,,2020-02-15 22:11:41,2020-02-15 22:11:59,17.796s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/input_phone_no""]), ""82112370408"", 2)",,,,2020-02-15 22:11:59,2020-02-15 22:12:00,1.485s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/setup_pin""]), ""1212"", 2)",,,,2020-02-15 22:12:00,2020-02-15 22:12:02,1.853s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/confirm_pin""]), ""1212"", 2)",,,,2020-02-15 22:12:02,2020-02-15 22:12:04,1.810s,PASSED
+"tap(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/btn_next""]), 3)",,,,2020-02-15 22:12:04,2020-02-15 22:12:06,2.237s,PASSED
+delay(8),,,,2020-02-15 22:12:06,2020-02-15 22:12:14,8.002s,PASSED
+while (true),,,,2020-02-15 22:12:14,2020-02-15 22:13:31,1m - 16.835s,PASSED
+delay(20),,,,2020-02-15 22:13:31,2020-02-15 22:13:51,20.004s,PASSED
+openNotifications(),,,,2020-02-15 22:13:51,2020-02-15 22:13:52,1.232s,PASSED
+"TextNotif = getText(findTestObject(""NotificationText_OTP""), 5)",,,,2020-02-15 22:13:52,2020-02-15 22:13:54,1.465s,PASSED
+"println(TextNotif.substring(51, 55))",,,,2020-02-15 22:13:54,2020-02-15 22:13:54,0.002s,PASSED
+delay(5),,,,2020-02-15 22:13:54,2020-02-15 22:13:59,5.003s,PASSED
+closeNotifications(),,,,2020-02-15 22:13:59,2020-02-15 22:14:01,1.558s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/pin_et_input_otp""]), TextNotif.substring(51, 55), 5)",,,,2020-02-15 22:14:01,2020-02-15 22:14:02,1.599s,PASSED
+"tap(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/btn_next""]), 3)",,,,2020-02-15 22:14:02,2020-02-15 22:14:04,2.235s,PASSED
+delay(5),,,,2020-02-15 22:14:04,2020-02-15 22:14:09,5.003s,PASSED
+takeScreenshot(),,,,2020-02-15 22:14:09,2020-02-15 22:14:10,0.871s,PASSED
+"takeScreenshot(""C:\Users\Fhadel Fadillah\Katalon Studio\AssesmentHCI\Reports\Screenshot"")",,,,2020-02-15 22:14:10,2020-02-15 22:14:11,1.068s,PASSED

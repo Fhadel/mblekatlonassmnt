@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register New Account,,,,2020-02-16 10:15:34,2020-02-16 10:19:17,3m - 42.880s,INCOMPLETE
+,,,,,,,
+Test Cases/TC01 - Register New Account,,,,2020-02-16 10:15:34,2020-02-16 10:19:17,3m - 42.383s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,,2020-02-16 10:15:35,2020-02-16 10:15:35,0.019s,PASSED
+"log.logInfo(""Starting Application My Home Credit"")",,,,2020-02-16 10:15:35,2020-02-16 10:15:35,0.002s,PASSED
+"startExistingApplication(""id.co.myhomecredit"")",,,,2020-02-16 10:15:35,2020-02-16 10:16:05,30.057s,PASSED
+delay(5),,,,2020-02-16 10:16:05,2020-02-16 10:16:10,5.069s,PASSED
+"log.logInfo(""Swiping until Daftar Button is Displayed"")",,,,2020-02-16 10:16:10,2020-02-16 10:16:10,0.005s,PASSED
+"while (verifyElementNotExist(findTestObject(""Object Repository/WelcomePage/WelcomePage_DaftarButton""), 5, OPTIONAL))",,,,2020-02-16 10:16:10,2020-02-16 10:16:33,23.415s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/WelcomePage/WelcomePage_DaftarButton""), 5)",,,,2020-02-16 10:16:33,2020-02-16 10:16:34,0.332s,PASSED
+"tap(findTestObject(""Object Repository/WelcomePage/WelcomePage_DaftarButton""), 0)",,,,2020-02-16 10:16:34,2020-02-16 10:16:35,1.545s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Common/By XPATH"", [""xpath"":""//*[contains(text(),""Tanggal Lahir"")]""]), 2)",,,,2020-02-16 10:16:35,2020-02-16 10:16:36,1.128s,PASSED
+"tap(findTestObject(""Object Repository/Common/By XPATH"", [""xpath"":""//*[contains(text(),""Tanggal Lahir"")]""]), 2)",,,,2020-02-16 10:16:36,2020-02-16 10:16:38,1.277s,PASSED
+"common.calendar.selectDate(""Jan 15 1995"")",,,,2020-02-16 10:16:38,2020-02-16 10:16:53,15.797s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/input_phone_no""]), ""87864837354"", 2)",,,,2020-02-16 10:16:53,2020-02-16 10:16:55,1.562s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/setup_pin""]), ""1212"", 2)",,,,2020-02-16 10:16:55,2020-02-16 10:16:57,1.770s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/confirm_pin""]), ""1212"", 2)",,,,2020-02-16 10:16:57,2020-02-16 10:16:59,2.212s,PASSED
+"tap(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/btn_next""]), 3)",,,,2020-02-16 10:16:59,2020-02-16 10:17:02,2.761s,PASSED
+delay(8),,,,2020-02-16 10:17:02,2020-02-16 10:17:10,8.003s,PASSED
+"log.logInfo(""Scrolling to bottom page until button agree is clickable"")",,,,2020-02-16 10:17:10,2020-02-16 10:17:10,0.001s,PASSED
+while (true),,,,2020-02-16 10:17:10,2020-02-16 10:18:25,1m - 14.971s,PASSED
+"log.logInfo(""Waiting for OTP"")",,,,2020-02-16 10:18:25,2020-02-16 10:18:25,0.001s,PASSED
+delay(20),,,,2020-02-16 10:18:25,2020-02-16 10:18:45,20.002s,PASSED
+openNotifications(),,,,2020-02-16 10:18:45,2020-02-16 10:18:46,1.109s,PASSED
+"log.logInfo(""Set OTP into textfield"")",,,,2020-02-16 10:18:46,2020-02-16 10:18:46,0.001s,PASSED
+"TextNotif = getText(findTestObject(""NotificationText_OTP""), 5)",,,,2020-02-16 10:18:46,2020-02-16 10:18:47,1.483s,PASSED
+"println(TextNotif.substring(51, 55))",,,,2020-02-16 10:18:47,2020-02-16 10:18:47,0.003s,PASSED
+delay(5),,,,2020-02-16 10:18:47,2020-02-16 10:18:52,5.002s,PASSED
+closeNotifications(),,,,2020-02-16 10:18:52,2020-02-16 10:18:54,1.609s,PASSED
+"setText(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/pin_et_input_otp""]), TextNotif.substring(51, 55), 5)",,,,2020-02-16 10:18:54,2020-02-16 10:18:56,1.672s,PASSED
+"tap(findTestObject(""Object Repository/Common/By ID"", [""id"":""id.co.myhomecredit:id/btn_next""]), 3)",,,,2020-02-16 10:18:56,2020-02-16 10:18:58,2.364s,PASSED
+delay(5),,,,2020-02-16 10:18:58,2020-02-16 10:19:03,5.003s,PASSED
+takeScreenshot(),,,,2020-02-16 10:19:03,2020-02-16 10:19:04,1.237s,PASSED
+"tap(findTestObject(""Object Repository/Common/By ID"", [""id"":""android:id/button1""]), 1)",,,,2020-02-16 10:19:04,2020-02-16 10:19:07,2.619s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/HomePage/HomePage_ImageLogoHCI""), 3)",,,,2020-02-16 10:19:07,2020-02-16 10:19:10,3.432s,PASSED
+takeScreenshot(),,,,2020-02-16 10:19:10,2020-02-16 10:19:11,1.021s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/HomePage/HomePage_ImageLogoHCI""), 3)",,,,2020-02-16 10:19:11,2020-02-16 10:19:17,5.327s,FAILED

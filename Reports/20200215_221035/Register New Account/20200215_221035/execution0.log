@@ -1,0 +1,3789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439073</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Register New Account</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Register New Account</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Register New Account</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439102</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Fhadel Fadillah - USER</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Fhadel Fadillah - USER</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439105</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439107</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.17</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.17</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439110</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439127</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439162</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439164</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:10:39</date>
+  <millis>1581779439673</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC01 - Register New Account</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC01 - Register New Account</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC01 - Register New Account</property>
+  <property name="source">C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Test Cases\\TC01 - Register New Account.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:40</date>
+  <millis>1581779440228</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startExistingApplication(\&amp;quot;id.co.myhomecredit\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">6</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:10:40</date>
+  <millis>1581779440638</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;autoGrantPermissions&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:10:40</date>
+  <millis>1581779440638</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;32d5d90b&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:10:45</date>
+  <millis>1581779445855</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 52,986</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469901</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469902</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.8.1\&amp;quot;,\&amp;quot;revision\&amp;quot;:null}}}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.8.1\&quot;,\&quot;revision\&quot;:null}}}</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469922</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 32d5d90b</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">32d5d90b</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469924</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Xiaomi POCOPHONE F1 (Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">Xiaomi POCOPHONE F1 (Android 9)</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469926</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = POCOPHONE F1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">POCOPHONE F1</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469928</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469929</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:09</date>
+  <millis>1581779469930</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:10</date>
+  <millis>1581779470592</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting app with application ID: &amp;apos;id.co.myhomecredit&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:10</date>
+  <millis>1581779470593</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startExistingApplication(\&amp;quot;id.co.myhomecredit\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:10</date>
+  <millis>1581779470593</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">8</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:15</date>
+  <millis>1581779475661</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:15</date>
+  <millis>1581779475662</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:15</date>
+  <millis>1581779475662</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : while (verifyElementNotExist(findTestObject(\&amp;quot;Object Repository/WelcomePage/WelcomePage_DaftarButton\&amp;quot;), 5, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">11</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:21</date>
+  <millis>1581779481433</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/WelcomePage/WelcomePage_DaftarButton&amp;apos; not found</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:21</date>
+  <millis>1581779481434</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeLeft(900, 700, 100, 700)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">12</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:23</date>
+  <millis>1581779483219</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeLeft is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:28</date>
+  <millis>1581779488446</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/WelcomePage/WelcomePage_DaftarButton&amp;apos; not found</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:28</date>
+  <millis>1581779488447</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeLeft(900, 700, 100, 700)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:28</date>
+  <millis>1581779488448</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeLeft(900, 700, 100, 700)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">12</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:30</date>
+  <millis>1581779490210</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeLeft is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:35</date>
+  <millis>1581779495464</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/WelcomePage/WelcomePage_DaftarButton&amp;apos; not found</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:35</date>
+  <millis>1581779495465</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeLeft(900, 700, 100, 700)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:35</date>
+  <millis>1581779495465</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeLeft(900, 700, 100, 700)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">12</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:37</date>
+  <millis>1581779497192</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeLeft is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498654</millis>
+  <sequence>56</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/WelcomePage/WelcomePage_DaftarButton&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1581779497504.png</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498655</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeLeft(900, 700, 100, 700)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498656</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : while (verifyElementNotExist(findTestObject(\&amp;quot;Object Repository/WelcomePage/WelcomePage_DaftarButton\&amp;quot;), 5, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498656</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;Object Repository/WelcomePage/WelcomePage_DaftarButton\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">15</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498959</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/WelcomePage/WelcomePage_DaftarButton&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498960</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;Object Repository/WelcomePage/WelcomePage_DaftarButton\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:38</date>
+  <millis>1581779498961</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Object Repository/WelcomePage/WelcomePage_DaftarButton\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:39</date>
+  <millis>1581779499061</millis>
+  <sequence>69</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;60&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:40</date>
+  <millis>1581779500490</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/WelcomePage/WelcomePage_DaftarButton&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:40</date>
+  <millis>1581779500490</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Object Repository/WelcomePage/WelcomePage_DaftarButton\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:40</date>
+  <millis>1581779500491</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Object Repository/Common/By XPATH\&amp;quot;, [\&amp;quot;xpath\&amp;quot;:\&amp;quot;//*[contains(text(),\&amp;quot;Tanggal Lahir\&amp;quot;)]\&amp;quot;]), 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:41</date>
+  <millis>1581779501713</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Common/By XPATH&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:41</date>
+  <millis>1581779501715</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Object Repository/Common/By XPATH\&amp;quot;, [\&amp;quot;xpath\&amp;quot;:\&amp;quot;//*[contains(text(),\&amp;quot;Tanggal Lahir\&amp;quot;)]\&amp;quot;]), 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:41</date>
+  <millis>1581779501715</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.calendar.selectDate(\&amp;quot;Jan 15 1995\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-02-15T22:11:59</date>
+  <millis>1581779519510</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:59</date>
+  <millis>1581779519510</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.calendar.selectDate is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:59</date>
+  <millis>1581779519511</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.calendar.selectDate(\&amp;quot;Jan 15 1995\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:11:59</date>
+  <millis>1581779519511</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/input_phone_no\&amp;quot;]), \&amp;quot;82112370408\&amp;quot;, 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:00</date>
+  <millis>1581779520995</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;82112370408&amp;apos; has been set to element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:00</date>
+  <millis>1581779520996</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/input_phone_no\&amp;quot;]), \&amp;quot;82112370408\&amp;quot;, 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:00</date>
+  <millis>1581779520996</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/setup_pin\&amp;quot;]), \&amp;quot;1212\&amp;quot;, 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:02</date>
+  <millis>1581779522848</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1212&amp;apos; has been set to element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:02</date>
+  <millis>1581779522849</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/setup_pin\&amp;quot;]), \&amp;quot;1212\&amp;quot;, 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:02</date>
+  <millis>1581779522849</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/confirm_pin\&amp;quot;]), \&amp;quot;1212\&amp;quot;, 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:04</date>
+  <millis>1581779524658</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1212&amp;apos; has been set to element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:04</date>
+  <millis>1581779524659</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/confirm_pin\&amp;quot;]), \&amp;quot;1212\&amp;quot;, 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:04</date>
+  <millis>1581779524660</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/btn_next\&amp;quot;]), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:06</date>
+  <millis>1581779526896</millis>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:06</date>
+  <millis>1581779526897</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/btn_next\&amp;quot;]), 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:06</date>
+  <millis>1581779526897</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(8)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:14</date>
+  <millis>1581779534898</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 8 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:14</date>
+  <millis>1581779534899</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(8)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:14</date>
+  <millis>1581779534899</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : while (true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:14</date>
+  <millis>1581779534900</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:16</date>
+  <millis>1581779536473</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:16</date>
+  <millis>1581779536475</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:18</date>
+  <millis>1581779538263</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:18</date>
+  <millis>1581779538264</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:18</date>
+  <millis>1581779538264</millis>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:18</date>
+  <millis>1581779538265</millis>
+  <sequence>124</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:18</date>
+  <millis>1581779538817</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:18</date>
+  <millis>1581779538818</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:20</date>
+  <millis>1581779540575</millis>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:20</date>
+  <millis>1581779540576</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:20</date>
+  <millis>1581779540576</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:20</date>
+  <millis>1581779540576</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:21</date>
+  <millis>1581779541037</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:21</date>
+  <millis>1581779541037</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:22</date>
+  <millis>1581779542831</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:22</date>
+  <millis>1581779542831</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:22</date>
+  <millis>1581779542832</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:22</date>
+  <millis>1581779542832</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:23</date>
+  <millis>1581779543204</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:23</date>
+  <millis>1581779543204</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:24</date>
+  <millis>1581779544992</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:24</date>
+  <millis>1581779544993</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:24</date>
+  <millis>1581779544993</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:24</date>
+  <millis>1581779544993</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:25</date>
+  <millis>1581779545482</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:25</date>
+  <millis>1581779545483</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:27</date>
+  <millis>1581779547275</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:27</date>
+  <millis>1581779547275</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:27</date>
+  <millis>1581779547275</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:27</date>
+  <millis>1581779547275</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:27</date>
+  <millis>1581779547815</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:27</date>
+  <millis>1581779547815</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:29</date>
+  <millis>1581779549584</millis>
+  <sequence>171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:29</date>
+  <millis>1581779549584</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:29</date>
+  <millis>1581779549584</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:29</date>
+  <millis>1581779549585</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:29</date>
+  <millis>1581779549961</millis>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:29</date>
+  <millis>1581779549961</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:31</date>
+  <millis>1581779551735</millis>
+  <sequence>181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:31</date>
+  <millis>1581779551736</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:31</date>
+  <millis>1581779551736</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:31</date>
+  <millis>1581779551737</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:32</date>
+  <millis>1581779552109</millis>
+  <sequence>189</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:32</date>
+  <millis>1581779552109</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:33</date>
+  <millis>1581779553946</millis>
+  <sequence>191</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:33</date>
+  <millis>1581779553947</millis>
+  <sequence>192</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:33</date>
+  <millis>1581779553947</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:33</date>
+  <millis>1581779553947</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:34</date>
+  <millis>1581779554278</millis>
+  <sequence>199</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:34</date>
+  <millis>1581779554278</millis>
+  <sequence>200</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:36</date>
+  <millis>1581779556046</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:36</date>
+  <millis>1581779556047</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:36</date>
+  <millis>1581779556047</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:36</date>
+  <millis>1581779556047</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:36</date>
+  <millis>1581779556419</millis>
+  <sequence>209</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:36</date>
+  <millis>1581779556420</millis>
+  <sequence>210</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:38</date>
+  <millis>1581779558193</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:38</date>
+  <millis>1581779558194</millis>
+  <sequence>212</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:38</date>
+  <millis>1581779558194</millis>
+  <sequence>213</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:38</date>
+  <millis>1581779558194</millis>
+  <sequence>214</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:38</date>
+  <millis>1581779558583</millis>
+  <sequence>219</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:38</date>
+  <millis>1581779558583</millis>
+  <sequence>220</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:40</date>
+  <millis>1581779560348</millis>
+  <sequence>221</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:40</date>
+  <millis>1581779560348</millis>
+  <sequence>222</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:40</date>
+  <millis>1581779560348</millis>
+  <sequence>223</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:40</date>
+  <millis>1581779560349</millis>
+  <sequence>224</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:40</date>
+  <millis>1581779560793</millis>
+  <sequence>229</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:40</date>
+  <millis>1581779560794</millis>
+  <sequence>230</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:42</date>
+  <millis>1581779562547</millis>
+  <sequence>231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:42</date>
+  <millis>1581779562548</millis>
+  <sequence>232</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:42</date>
+  <millis>1581779562548</millis>
+  <sequence>233</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:42</date>
+  <millis>1581779562548</millis>
+  <sequence>234</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:42</date>
+  <millis>1581779562903</millis>
+  <sequence>239</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:42</date>
+  <millis>1581779562904</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:44</date>
+  <millis>1581779564676</millis>
+  <sequence>241</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:44</date>
+  <millis>1581779564676</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:44</date>
+  <millis>1581779564676</millis>
+  <sequence>243</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:44</date>
+  <millis>1581779564676</millis>
+  <sequence>244</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:45</date>
+  <millis>1581779565076</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:45</date>
+  <millis>1581779565076</millis>
+  <sequence>250</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:46</date>
+  <millis>1581779566843</millis>
+  <sequence>251</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:46</date>
+  <millis>1581779566843</millis>
+  <sequence>252</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:46</date>
+  <millis>1581779566843</millis>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:46</date>
+  <millis>1581779566844</millis>
+  <sequence>254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:47</date>
+  <millis>1581779567169</millis>
+  <sequence>259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:47</date>
+  <millis>1581779567169</millis>
+  <sequence>260</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:48</date>
+  <millis>1581779568909</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:48</date>
+  <millis>1581779568909</millis>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:48</date>
+  <millis>1581779568909</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:48</date>
+  <millis>1581779568909</millis>
+  <sequence>264</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:49</date>
+  <millis>1581779569732</millis>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:49</date>
+  <millis>1581779569733</millis>
+  <sequence>270</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:51</date>
+  <millis>1581779571515</millis>
+  <sequence>271</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:51</date>
+  <millis>1581779571515</millis>
+  <sequence>272</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:51</date>
+  <millis>1581779571515</millis>
+  <sequence>273</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:51</date>
+  <millis>1581779571515</millis>
+  <sequence>274</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:51</date>
+  <millis>1581779571887</millis>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:51</date>
+  <millis>1581779571887</millis>
+  <sequence>280</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:53</date>
+  <millis>1581779573648</millis>
+  <sequence>281</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:53</date>
+  <millis>1581779573648</millis>
+  <sequence>282</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:53</date>
+  <millis>1581779573648</millis>
+  <sequence>283</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:53</date>
+  <millis>1581779573648</millis>
+  <sequence>284</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:53</date>
+  <millis>1581779573952</millis>
+  <sequence>289</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:53</date>
+  <millis>1581779573952</millis>
+  <sequence>290</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:55</date>
+  <millis>1581779575706</millis>
+  <sequence>291</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:55</date>
+  <millis>1581779575707</millis>
+  <sequence>292</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:55</date>
+  <millis>1581779575707</millis>
+  <sequence>293</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:55</date>
+  <millis>1581779575707</millis>
+  <sequence>294</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:56</date>
+  <millis>1581779576136</millis>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:56</date>
+  <millis>1581779576136</millis>
+  <sequence>300</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:57</date>
+  <millis>1581779577902</millis>
+  <sequence>301</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:57</date>
+  <millis>1581779577903</millis>
+  <sequence>302</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:57</date>
+  <millis>1581779577903</millis>
+  <sequence>303</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:57</date>
+  <millis>1581779577903</millis>
+  <sequence>304</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:12:58</date>
+  <millis>1581779578297</millis>
+  <sequence>309</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:12:58</date>
+  <millis>1581779578298</millis>
+  <sequence>310</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:00</date>
+  <millis>1581779580077</millis>
+  <sequence>311</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:00</date>
+  <millis>1581779580077</millis>
+  <sequence>312</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:00</date>
+  <millis>1581779580077</millis>
+  <sequence>313</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:00</date>
+  <millis>1581779580078</millis>
+  <sequence>314</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:00</date>
+  <millis>1581779580474</millis>
+  <sequence>319</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:00</date>
+  <millis>1581779580482</millis>
+  <sequence>320</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:02</date>
+  <millis>1581779582227</millis>
+  <sequence>321</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:02</date>
+  <millis>1581779582227</millis>
+  <sequence>322</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:02</date>
+  <millis>1581779582228</millis>
+  <sequence>323</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:02</date>
+  <millis>1581779582228</millis>
+  <sequence>324</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:02</date>
+  <millis>1581779582860</millis>
+  <sequence>329</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:02</date>
+  <millis>1581779582861</millis>
+  <sequence>330</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:04</date>
+  <millis>1581779584634</millis>
+  <sequence>331</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:04</date>
+  <millis>1581779584635</millis>
+  <sequence>332</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:04</date>
+  <millis>1581779584635</millis>
+  <sequence>333</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:04</date>
+  <millis>1581779584635</millis>
+  <sequence>334</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:04</date>
+  <millis>1581779584949</millis>
+  <sequence>339</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:04</date>
+  <millis>1581779584950</millis>
+  <sequence>340</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:06</date>
+  <millis>1581779586709</millis>
+  <sequence>341</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:06</date>
+  <millis>1581779586709</millis>
+  <sequence>342</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:06</date>
+  <millis>1581779586709</millis>
+  <sequence>343</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:06</date>
+  <millis>1581779586710</millis>
+  <sequence>344</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:07</date>
+  <millis>1581779587156</millis>
+  <sequence>349</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:07</date>
+  <millis>1581779587156</millis>
+  <sequence>350</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:08</date>
+  <millis>1581779588921</millis>
+  <sequence>351</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:08</date>
+  <millis>1581779588921</millis>
+  <sequence>352</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:08</date>
+  <millis>1581779588922</millis>
+  <sequence>353</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:08</date>
+  <millis>1581779588922</millis>
+  <sequence>354</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:09</date>
+  <millis>1581779589238</millis>
+  <sequence>359</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:09</date>
+  <millis>1581779589239</millis>
+  <sequence>360</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:10</date>
+  <millis>1581779590998</millis>
+  <sequence>361</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:10</date>
+  <millis>1581779590999</millis>
+  <sequence>362</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:10</date>
+  <millis>1581779590999</millis>
+  <sequence>363</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:10</date>
+  <millis>1581779590999</millis>
+  <sequence>364</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:11</date>
+  <millis>1581779591910</millis>
+  <sequence>369</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:11</date>
+  <millis>1581779591910</millis>
+  <sequence>370</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:13</date>
+  <millis>1581779593786</millis>
+  <sequence>371</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:13</date>
+  <millis>1581779593787</millis>
+  <sequence>372</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:13</date>
+  <millis>1581779593787</millis>
+  <sequence>373</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:13</date>
+  <millis>1581779593787</millis>
+  <sequence>374</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:14</date>
+  <millis>1581779594159</millis>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:14</date>
+  <millis>1581779594159</millis>
+  <sequence>380</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:15</date>
+  <millis>1581779595899</millis>
+  <sequence>381</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:15</date>
+  <millis>1581779595900</millis>
+  <sequence>382</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:15</date>
+  <millis>1581779595900</millis>
+  <sequence>383</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:15</date>
+  <millis>1581779595900</millis>
+  <sequence>384</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:16</date>
+  <millis>1581779596318</millis>
+  <sequence>389</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:16</date>
+  <millis>1581779596318</millis>
+  <sequence>390</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:18</date>
+  <millis>1581779598090</millis>
+  <sequence>391</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:18</date>
+  <millis>1581779598091</millis>
+  <sequence>392</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:18</date>
+  <millis>1581779598091</millis>
+  <sequence>393</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:18</date>
+  <millis>1581779598091</millis>
+  <sequence>394</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:18</date>
+  <millis>1581779598443</millis>
+  <sequence>399</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:18</date>
+  <millis>1581779598444</millis>
+  <sequence>400</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:20</date>
+  <millis>1581779600203</millis>
+  <sequence>401</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:20</date>
+  <millis>1581779600204</millis>
+  <sequence>402</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:20</date>
+  <millis>1581779600204</millis>
+  <sequence>403</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:20</date>
+  <millis>1581779600204</millis>
+  <sequence>404</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:20</date>
+  <millis>1581779600577</millis>
+  <sequence>409</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:20</date>
+  <millis>1581779600577</millis>
+  <sequence>410</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:22</date>
+  <millis>1581779602319</millis>
+  <sequence>411</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:22</date>
+  <millis>1581779602319</millis>
+  <sequence>412</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:22</date>
+  <millis>1581779602319</millis>
+  <sequence>413</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:22</date>
+  <millis>1581779602319</millis>
+  <sequence>414</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:22</date>
+  <millis>1581779602652</millis>
+  <sequence>419</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:22</date>
+  <millis>1581779602653</millis>
+  <sequence>420</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:24</date>
+  <millis>1581779604431</millis>
+  <sequence>421</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:24</date>
+  <millis>1581779604432</millis>
+  <sequence>422</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:24</date>
+  <millis>1581779604433</millis>
+  <sequence>423</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:24</date>
+  <millis>1581779604433</millis>
+  <sequence>424</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:24</date>
+  <millis>1581779604830</millis>
+  <sequence>429</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:24</date>
+  <millis>1581779604830</millis>
+  <sequence>430</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:26</date>
+  <millis>1581779606577</millis>
+  <sequence>431</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:26</date>
+  <millis>1581779606578</millis>
+  <sequence>432</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:26</date>
+  <millis>1581779606578</millis>
+  <sequence>433</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:26</date>
+  <millis>1581779606578</millis>
+  <sequence>434</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:26</date>
+  <millis>1581779606924</millis>
+  <sequence>439</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:26</date>
+  <millis>1581779606924</millis>
+  <sequence>440</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:28</date>
+  <millis>1581779608669</millis>
+  <sequence>441</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.swipe.swipeUp is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:28</date>
+  <millis>1581779608669</millis>
+  <sequence>442</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.swipe.swipeUp(900, 1700, 900, 900)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:28</date>
+  <millis>1581779608669</millis>
+  <sequence>443</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:28</date>
+  <millis>1581779608669</millis>
+  <sequence>444</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:30</date>
+  <millis>1581779610110</millis>
+  <sequence>449</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Common/By ID&amp;apos; has attribute &amp;apos;enabled&amp;apos; with actual value &amp;apos;true&amp;apos; instead of expected value &amp;apos;false&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1581779609048.png</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:30</date>
+  <millis>1581779610111</millis>
+  <sequence>450</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementAttributeValue(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), \&amp;quot;enabled\&amp;quot;, \&amp;quot;false\&amp;quot;, 3, OPTIONAL) == true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:30</date>
+  <millis>1581779610111</millis>
+  <sequence>451</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:30</date>
+  <millis>1581779610112</millis>
+  <sequence>452</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), 3)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611733</millis>
+  <sequence>456</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611734</millis>
+  <sequence>457</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/agree_button\&amp;quot;]), 3)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611734</millis>
+  <sequence>458</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : break</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611734</millis>
+  <sequence>459</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : break</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611734</millis>
+  <sequence>460</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611734</millis>
+  <sequence>461</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : while (true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:31</date>
+  <millis>1581779611736</millis>
+  <sequence>462</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(20)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:51</date>
+  <millis>1581779631740</millis>
+  <sequence>464</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 20 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:51</date>
+  <millis>1581779631740</millis>
+  <sequence>465</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(20)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:51</date>
+  <millis>1581779631740</millis>
+  <sequence>466</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openNotifications()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:52</date>
+  <millis>1581779632821</millis>
+  <sequence>467</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Open notifications successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:52</date>
+  <millis>1581779632972</millis>
+  <sequence>468</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openNotifications()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:52</date>
+  <millis>1581779632973</millis>
+  <sequence>469</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : TextNotif = getText(findTestObject(\&amp;quot;NotificationText_OTP\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:54</date>
+  <millis>1581779634437</millis>
+  <sequence>473</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of element &amp;apos;Object Repository/NotificationText_OTP&amp;apos; is: &amp;apos;7 messages | Kode OTP untuk verifikasi anda adalah 6469. Berlaku hingga 22:18. Mohon gunakan kode ini untuk verifikasi.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:54</date>
+  <millis>1581779634438</millis>
+  <sequence>474</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : TextNotif = getText(findTestObject(\&amp;quot;NotificationText_OTP\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:54</date>
+  <millis>1581779634438</millis>
+  <sequence>475</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(TextNotif.substring(51, 55))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:54</date>
+  <millis>1581779634440</millis>
+  <sequence>476</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(TextNotif.substring(51, 55))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:54</date>
+  <millis>1581779634440</millis>
+  <sequence>477</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2020-02-15T22:13:59</date>
+  <millis>1581779639443</millis>
+  <sequence>479</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:59</date>
+  <millis>1581779639443</millis>
+  <sequence>480</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:13:59</date>
+  <millis>1581779639443</millis>
+  <sequence>481</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeNotifications()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:00</date>
+  <millis>1581779640832</millis>
+  <sequence>482</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Notification closed.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:01</date>
+  <millis>1581779641001</millis>
+  <sequence>483</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeNotifications()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:01</date>
+  <millis>1581779641001</millis>
+  <sequence>484</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/pin_et_input_otp\&amp;quot;]), TextNotif.substring(51, 55), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:02</date>
+  <millis>1581779642599</millis>
+  <sequence>488</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;6469&amp;apos; has been set to element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:02</date>
+  <millis>1581779642600</millis>
+  <sequence>489</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/pin_et_input_otp\&amp;quot;]), TextNotif.substring(51, 55), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:02</date>
+  <millis>1581779642600</millis>
+  <sequence>490</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/btn_next\&amp;quot;]), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:04</date>
+  <millis>1581779644835</millis>
+  <sequence>494</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Common/By ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:04</date>
+  <millis>1581779644835</millis>
+  <sequence>495</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Object Repository/Common/By ID\&amp;quot;, [\&amp;quot;id\&amp;quot;:\&amp;quot;id.co.myhomecredit:id/btn_next\&amp;quot;]), 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:04</date>
+  <millis>1581779644835</millis>
+  <sequence>496</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:09</date>
+  <millis>1581779649838</millis>
+  <sequence>498</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:09</date>
+  <millis>1581779649838</millis>
+  <sequence>499</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:09</date>
+  <millis>1581779649838</millis>
+  <sequence>500</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:10</date>
+  <millis>1581779650542</millis>
+  <sequence>501</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\20200215_221035\\Register New Account\\20200215_221035\\1581779649839.png</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:10</date>
+  <millis>1581779650709</millis>
+  <sequence>502</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:10</date>
+  <millis>1581779650709</millis>
+  <sequence>503</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot(\&amp;quot;C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\Screenshot\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:11</date>
+  <millis>1581779651610</millis>
+  <sequence>505</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Destination &amp;apos;C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\Screenshot&amp;apos; exists but is a directory</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">java.io.IOException</property>
+  <property name="failed.exception.stacktrace">java.io.IOException: Destination &apos;C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\Screenshot&apos; exists but is a directory\r\n\tat org.apache.commons.io.FileUtils.doCopyFile(FileUtils.java:1130)\r\n\tat org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1091)\r\n\tat org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:94)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:83)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:66)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeScreenshot(MobileBuiltInKeywords.groovy:214)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeScreenshot$9.call(Unknown Source)\r\n\tat TC01 - Register New Account.run(TC01 - Register New Account:64)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1581779435689.run(TempTestSuite1581779435689.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Destination &apos;C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\Screenshot&apos; exists but is a directory</property>
+</record>
+<record>
+  <date>2020-02-15T22:14:11</date>
+  <millis>1581779651777</millis>
+  <sequence>506</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot(\&amp;quot;C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\Screenshot\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:11</date>
+  <millis>1581779651777</millis>
+  <sequence>507</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC01 - Register New Account</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:11</date>
+  <millis>1581779651777</millis>
+  <sequence>508</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC01 - Register New Account</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:11</date>
+  <millis>1581779651778</millis>
+  <sequence>509</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:11</date>
+  <millis>1581779651778</millis>
+  <sequence>511</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652029</millis>
+  <sequence>1144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\20200215_221035\\Register New Account\\20200215_221035...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652636</millis>
+  <sequence>1145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652636</millis>
+  <sequence>1146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\20200215_221035\\Register New Account\\20200215_221035...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652668</millis>
+  <sequence>1147</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652669</millis>
+  <sequence>1148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: C:\\Users\\Fhadel Fadillah\\Katalon Studio\\AssesmentHCI\\Reports\\20200215_221035\\Register New Account\\20200215_221035...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652856</millis>
+  <sequence>1149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:12</date>
+  <millis>1581779652857</millis>
+  <sequence>1151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-15T22:14:13</date>
+  <millis>1581779653446</millis>
+  <sequence>1152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Register New Account</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

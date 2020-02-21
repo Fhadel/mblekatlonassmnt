@@ -1,0 +1,342 @@
+[35m[Appium][39m Welcome to Appium v1.8.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62559
+[35m[Appium][39m   chromeDriverPort: 62560
+[35m[Appium][39m   tmpDir: C:\Users\FHADEL~1\AppData\Local\Temp\\Katalon\Appium\Temp1581821733426
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62559
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m12 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"32d5d90b","deviceName":"Xiaomi POCOPHONE F1 (Android 9)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"32d5d90b","systemPort":8223},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"32d5d90b","appium:deviceName":"Xiaomi POCOPHONE F1 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8223,"appium:udid":"32d5d90b"}]}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.android.settings","deviceId":"32d5d90b","deviceName":"Xiaomi POCOPHONE F1 (Android 9)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"32d5d90b","systemPort":8223},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"32d5d90b","appium:deviceName":"Xiaomi POCOPHONE F1 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8223,"appium:udid":"32d5d90b"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1581821740597 (09:55:40 GMT+0700 (SE Asia Standard Time))
+[35m[BaseDriver][39m The capabilities ["deviceId","platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceId: 32d5d90b
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   appActivity: .Settings
+[35m[Appium][39m   appPackage: com.android.settings
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: Xiaomi POCOPHONE F1 (Android 9)
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   platformVersion: 9
+[35m[Appium][39m   systemPort: 8223
+[35m[Appium][39m   udid: 32d5d90b
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"appium:dev... and MJSONWP desired capabilities [object Object] were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"appium:dev...
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: f63e0fd8-a9ef-4146-b9bf-ba14f61781ff
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Fhadel Fadillah/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[35m[AndroidDriver][39m Using device: 32d5d90b
+[debug] [35m[ADB][39m Setting device id to 32d5d90b
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 28
+[debug] [35m[ADB][39m Device API level: 28
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 9
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell wm size'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell wm density'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': POCOPHONE F1
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Device API level: 28
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\zipalign.exe
+[debug] [35m[ADB][39m Signing 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\apksigner.bat' with args 'sign,--key,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[35m[ADB][39m Cannot use apksigner tool for signing. Defaulting to sign.jar. Original error: Command ''C:\\Users\\Fhadel Fadillah\\.katalon\\tools\\android_sdk\\build-tools\\29.0.3\\apksigner.bat' sign --key 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.pk8' --cert 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.x509.pem' 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk'' exited with code 1; StdErr: 'C:\Users\Fhadel' is not recognized as an internal or external command,
+[35m[ADB][39m operable program or batch file.
+[35m[ADB][39m 
+[debug] [35m[ADB][39m Resigning apk.
+[debug] [35m[ADB][39m Checking app cert for C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is not signed with debug cert.
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Signing 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' with default cert
+[debug] [35m[ADB][39m Starting 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\apksigner.bat' with args 'sign,--key,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[ADB][39m Cannot use apksigner tool for signing. Defaulting to sign.jar. Original error: Command ''C:\\Users\\Fhadel Fadillah\\.katalon\\tools\\android_sdk\\build-tools\\29.0.3\\apksigner.bat' sign --key 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.pk8' --cert 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-adb\\keys\\testkey.x509.pem' 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'' exited with code 1; StdErr: 'C:\Users\Fhadel' is not recognized as an internal or external command,
+[35m[ADB][39m operable program or batch file.
+[35m[ADB][39m 
+[debug] [35m[ADB][39m Resigning apk.
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b uninstall io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'adb uninstall io.appium.uiautomator2.server' command output: Success
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am force-stop io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b uninstall io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m 'adb uninstall io.appium.uiautomator2.server.test' command output: Success
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b install 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.12.0.apk''
+[debug] [35m[ADB][39m Install command stdout: Performing Streamed Install
+[debug] [35m[ADB][39m Success
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b install 'C:\\Users\\Fhadel Fadillah\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk''
+[debug] [35m[ADB][39m Install command stdout: Performing Streamed Install
+[debug] [35m[ADB][39m Success
+[debug] [35m[UiAutomator2][39m Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell dumpsys package io.appium.settings'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\build-tools\29.0.3\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell ps'
+[debug] [35m[ADB][39m Device API level: 28
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Device API level: 28
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell appops set io.appium.settings android\:mock_location allow'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 8223
+[debug] [35m[ADB][39m Forwarding system: 8223 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b forward tcp\:8223 tcp\:6790'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[UiAutomator2][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.android.settings
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm list packages com.android.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am force-stop com.android.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm clear com.android.settings'
+[debug] [35m[ADB][39m Device API level: 28
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell dumpsys package com.android.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell pm dump com.android.settings'
+[35m[ADB][39m com.android.settings contains no permissions available for granting.
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.android.settings' application (stop and clear)
+[debug] [35m[ADB][39m Checking app cert for null
+[debug] [35m[ADB][39m 'null' doesn't exist
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am force-stop io.appium.uiautomator2.server'
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\Fhadel Fadillah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s 32d5d90b shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8223/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8223/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8223/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8223/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8223/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /session] to [POST http://localhost:8223/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"32d5d90b","platform":"ANDROID","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi POCOPHONE F1 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b"},"platformName":"android","deviceId":"32d5d90b","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"32d5d90b","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b","deviceUDID":"32d5d90b","deviceScreenSize":"1080x2246","deviceScreenDensity":440,"deviceModel":"POCOPHONE F1","deviceManufacturer":"Xiaomi","deviceApiLevel":28}}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce","status":0,"value":"Created Session"}
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.android.settings/.Settings'. Starting it ourselves
+[debug] [35m[ADB][39m Device API level: 28
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/appium/device/pixel_ratio] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":2.75}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/appium/device/system_bars] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":{\"statusBar\":89}}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/window/current/size] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":{\"height\":2027,\"width\":1080}}"
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session f63e0fd8-a9ef-4146-b9bf-ba14f61781ff added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1581821769501 (09:56:09 GMT+0700 (SE Asia Standard Time))
+[debug] [35m[W3C][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"32d5d90b","platform":"ANDROID","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi POCOPHONE F1 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b"},"platformName":"android","deviceId":"32d5d90b","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"32d5d90b","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b","deviceUDID":"32d5d90b","deviceScreenSize":"1080x2246","deviceScreenDensity":440,"deviceModel":"POCOPHONE F1","deviceManufacturer":"Xiaomi","deviceApiLevel":28,"pixelRatio":2.75,"statBarHeight":89,"vi...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m28907 ms - 1142[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":{}}"
+[debug] [35m[W3C][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"32d5d90b","platform":"ANDROID","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi POCOPHONE F1 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b"},"platformName":"android","deviceId":"32d5d90b","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"32d5d90b","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b","deviceUDID":"32d5d90b","deviceScreenSize":"1080x2246","deviceScreenDensity":440,"deviceModel":"POCOPHONE F1","deviceManufacturer":"Xiaomi","deviceApiLevel":28,"pixelRatio":2.75,"statBarHeight":89,"viewportRect":{"le...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff [39m[32m200[39m [90m22 ms - 1074[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getSession() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[UiAutomator2][39m Getting session details from server to mix in
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":{}}"
+[debug] [35m[W3C][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"32d5d90b","platform":"ANDROID","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi POCOPHONE F1 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b"},"platformName":"android","deviceId":"32d5d90b","appActivity":".Settings","appPackage":"com.android.settings","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"32d5d90b","newCommandTimeout":1800,"platformVersion":"9","systemPort":8223,"udid":"32d5d90b","deviceUDID":"32d5d90b","deviceScreenSize":"1080x2246","deviceScreenDensity":440,"deviceModel":"POCOPHONE F1","deviceManufacturer":"Xiaomi","deviceApiLevel":28,"pixelRatio":2.75,"statBarHeight":89,"viewportRect":{"le...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff [39m[32m200[39m [90m19 ms - 1074[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[W3C][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.timeouts() with args: [{"protocol":"W3C","implicit":60000},"f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[BaseDriver][39m script: undefined, pageLoad: undefined, implicit: 60000
+[debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
+[debug] [35m[W3C][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/timeouts [39m[32m200[39m [90m10 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"id.co.myhomecredit"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.activateApp() with args: ["id.co.myhomecredit",null,null,null,"f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[AndroidDriver][39m Activating 'id.co.myhomecredit' with 'adb shell monkey -p id.co.myhomecredit -c android.intent.category.LAUNCHER 1' command
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell monkey -p id.co.myhomecredit -c android.intent.category.LAUNCHER 1'
+[debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
+[debug] [35m[AndroidDriver][39m   bash arg: id.co.myhomecredit
+[debug] [35m[AndroidDriver][39m   bash arg: -c
+[debug] [35m[AndroidDriver][39m   bash arg: android.intent.category.LAUNCHER
+[debug] [35m[AndroidDriver][39m   bash arg: 1
+[debug] [35m[AndroidDriver][39m Events injected: 1
+[debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=39ms (0ms mobile, 0ms wifi, 39ms not connected)
+[debug] [35m[W3C][39m Responding to client with driver.activateApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/appium/device/activate_app [39m[32m200[39m [90m708 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,2027]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\"...
+[35m[JSONWP Proxy][39m Replacing sessionId a74dd2bb-3c17-4754-aac4-7dd9ddef46ce with f63e0fd8-a9ef-4146-b9bf-ba14f61781ff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source [39m[32m200[39m [90m819 ms - 2752[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzs3XecXGW9+PEzM7sz27IlhRRAIhIkSMcA0gQRDIggiAVURAQLIEi5wlV+\\nol5BrvcqV8GGBUERsQJ6uRiKEoqCBaQIKCIlpNftZWbn98eEyexms9lsEvKNeb9f\\/jFz5syZZ3mB\\nr\\/nMec5zUs9N3jMBAACIJL2pBwAAADCYUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACE\\nI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCO\\nUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhC\\nBQAACEeoAAAA4QgVAAAgHKECAACEU7WpBwAAwGamauo2uX32zM3YPf+P51q\\/8f2N8xmZ7C47ZXff\\nuWq7baqnbpOZtFWqrjZVV5tKp\\/s7OoudXYWFS\\/LPvZB\\/dk7vo0\\/2\\/uWvxd7ejTKMYWV3m1539Bur\\np0\\/LjG1Oj2tJ5bIv8wCKXT39y5YXlq3oe\\/ypzv+9s\\/eRJ17mAWxUqecm77mpxwAAwGZj\\/Dcuz+27\\n18onxf4X95q5AQ+eqq2pfcMBtTMPze29W6q2ZoTvKvb29j70eNesu7tuv7u\\/rWMDjmdIqVy27q0z\\nG95zfNU2kzf2Z62T\\/Jx57T\\/4eecvbtsk2bbBCRUAAIaWbmzIzdgj99rd+559oePGW0obt35oVuU+\\nL+55xAb5rKqtJzW8\\/511Rx028j5ZXbG3t+uOe9...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzs3XecXGW9+PEzM7sz27IlhRRAIhIkSMcA0gQRDIggiAVURAQLIEi5wlV+\nol5BrvcqV8GGBUERsQJ6uRiKEoqCBaQIKCIlpNftZWbn98eEyexms9lsEvKNeb9f/jFz5syZZ3mB\nr/nMec5zUs9N3jMBAACIJL2pBwAAADCYUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACE\nI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCO\nUAEAAMIRKgAAQDhCBQAACEeoAAAA4QgVAAAgHKECAACEI1QAAIBwhAoAABCOUAEAAMIRKgAAQDhC\nBQAACEeoAAAA4QgVAAAgHKECAACEU7WpBwAAwGamauo2uX32zM3YPf+P51q/8f2N8xmZ7C47ZXff\nuWq7baqnbpOZtFWqrjZVV5tKp/s7OoudXYWFS/LPvZB/dk7vo0/2/uWvxd7ejTKMYWV3m1539Bur\np0/LjG1Oj2tJ5bIv8wCKXT39y5YXlq3oe/ypzv+9s/eRJ17mAWxUqecm77mpxwAAwGZj/Dcuz+27\n18onxf4X95q5AQ+eqq2pfcMBtTMPze29W6q2ZoTvKvb29j70eNesu7tuv7u/rWMDjmdIqVy27q0z\nG95zfNU2kzf2Z62T/Jx57T/4eecvbtsk2bbBCRUAAIaWbmzIzdgj99rd+559oePGW0obt35oVuU+\nL+55xAb5rKqtJzW8/511Rx028j5ZXbG3t+uOe9u+c0P+mec2yKhWV3f0Gxs/dlpmXMtGOv76KyxZ\n1vo/3+781R2beiDrS6gk6caGmkMPqH7ltqmG+mJ7R/75uV13zO5vbR/1ATNbjauetv1I9uz7x3OF\n+QtHMs...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot [39m[32m200[39m [90m496 ms - 39998[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,2027]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\"...
+[35m[JSONWP Proxy][39m Replacing sessionId a74dd2bb-3c17-4754-aac4-7dd9ddef46ce with f63e0fd8-a9ef-4146-b9bf-ba14f61781ff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source [39m[32m200[39m [90m145 ms - 8305[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzs3Xd4XMW9P\\/6Z07ao914s925s3I0LCBsCGAxOCIQQE8j1BQKBfEnyy70p\\nkAZPcnMhDy3UACH08GAbBzDYxk0usiW5yZZsyeq9S9tOmfn9sdzNorJarVbS2nq\\/njxk9+zZc0bS\\nSj7vMzOfoZxzAgAAAAAAEEqEsW4AAAAAAABAbwgqAAAAAAAQchBUAAAAAAAg5CCoAAAAAABAyEFQ\\nAQAAAACAkIOgAgAAAAAAIQdBBQAAAAAAQg6CCgAAAAAAhBwEFQAAAAAACDkIKgAAAAAAEHIQVAAA\\nAAAAIOQgqAAAAAAAQMhBUAEAAAAAgJCDoAIAAAAAACEHQQUAAAAAAEIOggoAAAAAAIQcBBUAAAAA\\nAAg5CCoAAAAAABByEFQAAAAAACDkIKgAAAAAAEDIQVABAAAAAICQg6ACAAAAAAAhB0EFAAAAAABC\\nDoIKAAAAAACEHAQVAAAAAAAIOQgqAAAAAAAQchBUAAAAAAAg5CCoAAAAAABAyEFQAQAAAACAkIOg\\nAgAAAAAAIQdBBQAAAAAAQo401g0AAAAAgItMdXV1QUFBYWFhdnb2pk2bRuIUuq6fOXPm9OnT1dXV\\nVVVVzc3NDofDbrcTQqxWq8ViiY+Pz8jIyMzMnD59+syZM2VZHolm+Hb69OnPP\\/+8pKSko6Ojra1N\\nVdVRboDZbI6Ojo6Kipo+fXpubu7MmTNHuQEjinLOx7oNAAAAAHDReOSRR44dO+Z+LAjCzp07g3hw\\nh8Oxb9++nTt3njhxwul0+vkuRVHmzJlz5ZVXrlq1ymq1BrE9\\/VJVdfv27R988E...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzs3Xd4XMW9P/6Z07ao914s925s3I0LCBsCGAxOCIQQE8j1BQKBfEnyy70p\nkAZPcnMhDy3UACH08GAbBzDYxk0usiW5yZZsyeq9S9tOmfn9sdzNorJarVbS2nq/njxk9+zZc0bS\nSj7vMzOfoZxzAgAAAAAAEEqEsW4AAAAAAABAbwgqAAAAAAAQchBUAAAAAAAg5CCoAAAAAABAyEFQ\nAQAAAACAkIOgAgAAAAAAIQdBBQAAAAAAQg6CCgAAAAAAhBwEFQAAAAAACDkIKgAAAAAAEHIQVAAA\nAAAAIOQgqAAAAAAAQMhBUAEAAAAAgJCDoAIAAAAAACEHQQUAAAAAAEIOggoAAAAAAIQcBBUAAAAA\nAAg5CCoAAAAAABByEFQAAAAAACDkIKgAAAAAAEDIQVABAAAAAICQg6ACAAAAAAAhB0EFAAAAAABC\nDoIKAAAAAACEHAQVAAAAAAAIOQgqAAAAAAAQchBUAAAAAAAg5CCoAAAAAABAyEFQAQAAAACAkIOg\nAgAAAAAAIQdBBQAAAAAAQo401g0AAAAAgItMdXV1QUFBYWFhdnb2pk2bRuIUuq6fOXPm9OnT1dXV\nVVVVzc3NDofDbrcTQqxWq8ViiY+Pz8jIyMzMnD59+syZM2VZHolm+Hb69OnPP/+8pKSko6Ojra1N\nVdVRboDZbI6Ojo6Kipo+fXpubu7MmTNHuQEjinLOx7oNAAAAAHDReOSRR44dO+Z+LAjCzp07g3hw\nh8Oxb9++nTt3njhxwul0+vkuRVHmzJlz5ZVXrlq1ymq1BrE9/VJVdfv27R988EFdXd1In2tIUlNT\nN27ceP31149JbAs6BBUAAAAA6F9PT09hYWFhYWFmZuZNN93k3rhmzRrvfXbv3h2Uc9XW1r711lu7\ndu3yP5...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot [39m[32m200[39m [90m336 ms - 171408[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,2027]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\"...
+[35m[JSONWP Proxy][39m Replacing sessionId a74dd2bb-3c17-4754-aac4-7dd9ddef46ce with f63e0fd8-a9ef-4146-b9bf-ba14f61781ff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source [39m[32m200[39m [90m135 ms - 8013[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzs3Xd8FGXix\\/FnZntJI4TeDum9Ix2kiiiogGJBxX56eJaz\\/+7U8zzP8wqn\\nh92zFxRFEKU3qVKkd+klgfTN9t2Z3x+Ly7LZJJtNQibx837xx86zM888KcB892nS0YbdBQAAAABo\\niVzdDQAAAACAaAQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQV\\nAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACg\\nOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEA\\nAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpD\\nUAEAAACgOfrqbgAAAABqGH2LJqY+3U29uwZ+Plr4+odVcw+dsVM7Y9cO+uZNDC2a6BrUk6wWyWqR\\nZFlxulSXO3gmJ3D0eODICd+Ovb5tu1Wfr0qaUSpjl\\/bWcSMM7Vvr6qTK6WmSyXiRG6C6vUpefjCv\\nwL9rn2v+Ut\\/2PRe5AVVKOtqwe3W3AQAAADVG3ddfNPXtce5AVU72GFOJlUsWs+WyAZYxw0w9u0gW\\nc5xXqT6f76dd7kUr3YtXKg5nJbYnJslktE4YY7\\/pGn2ThlV9r3IJnDhd9NFXrq8XVEtsq3QEFQAA\\nAMQmJ9tNvbuZenX1Hznu\\/HxuqLDxT4sizznZfVSl3EvfuIH9tuusY4fHn0...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzs3Xd8FGXix/FnZntJI4TeDum9Ix2kiiiogGJBxX56eJaz/+7U8zzP8wqn\nh92zFxRFEKU3qVKkd+klgfTN9t2Z3x+Ly7LZJJtNQibx837xx86zM888KcB892nS0YbdBQAAAABo\niVzdDQAAAACAaAQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQV\nAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACg\nOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEA\nAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpDUAEAAACgOQQVAAAAAJpD\nUAEAAACgOfrqbgAAAABqGH2LJqY+3U29uwZ+Plr4+odVcw+dsVM7Y9cO+uZNDC2a6BrUk6wWyWqR\nZFlxulSXO3gmJ3D0eODICd+Ovb5tu1Wfr0qaUSpjl/bWcSMM7Vvr6qTK6WmSyXiRG6C6vUpefjCv\nwL9rn2v+Ut/2PRe5AVVKOtqwe3W3AQAAADVG3ddfNPXtce5AVU72GFOJlUsWs+WyAZYxw0w9u0gW\nc5xXqT6f76dd7kUr3YtXKg5nJbYnJslktE4YY7/pGn2ThlV9r3IJnDhd9NFXrq8XVEtsq3QEFQAA\nAMQmJ9tNvbuZenX1Hznu/HxuqLDxT4sizznZfVSl3EvfuIH9tuusY4fHn0+KU30+95LVjnc+DRw6\nWimtKs46bkTy7+/QpadVUf0VF8zJK/z3265vl1R3QyrqVxpUDO1aqY6iwMnMMs+UDHrTwD7Gdq3k\nlCTV6w...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot [39m[32m200[39m [90m331 ms - 78764[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[28,957][1052,1377]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\...
+[35m[JSONWP Proxy][39m Replacing sessionId a74dd2bb-3c17-4754-aac4-7dd9ddef46ce with f63e0fd8-a9ef-4146-b9bf-ba14f61781ff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source [39m[32m200[39m [90m116 ms - 6354[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzs3Xd8ZFX9\\/\\/Fzy8ykTHrflE3Z3htsoffeBRQRFRUFFFCxN1QUGyIqyteC\\n+hMbItJ7Xym7C9v7ZtN7nbRJptx7f3\\/Mcrk7mSSTSbvJvp4PHjr3zp0zJ4Vw33PKR7omIVMAAAAA\\ngJ3IU90BAAAAAAhHUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZD\\nUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAA\\nALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQV\\nAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABg\\nOwQVAAAAALajTnUHAAAAMM3EuROTMtKTMjL6e3obD5VPxFsoqjp7+dLSVStySouzS4rTZ+W5EhNc\\nCQmSLA\\/09fn6vF3NLc0VVS2VlZXbd1Zu3R7w+SeiG8MrWbn8+MsuKlqyOCkjPTkzU3U5J7kD\\/v6B\\n3o6O3o7O6p27Nj\\/6ZOW2HZPcgQklXZOQOdV9AAAAwLQxd+1xSRnp5uHWp58bx8adCfErzj5j9UXn\\nzz3+OFdCfJSvCvj8h9\\/ZuvWpZ7c+\\/Vx\\/T8849iciR5xrw5WXn\\/bxj2QWFU70e41KW03tK3\\/665sP\\n\\/WdKYtu4I6gAAAAgsoTk5Lnrjpu3fm3z4YrXH\\/xn6OSq...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzs3Xd8ZFX9//Fzy8ykTHrflE3Z3htsoffeBRQRFRUFFFCxN1QUGyIqyteC\n+hMbItJ7Xym7C9v7ZtN7nbRJptx7f3/Mcrk7mSSTSbvJvp4PHjr3zp0zJ4Vw33PKR7omIVMAAAAA\ngJ3IU90BAAAAAAhHUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZD\nUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAA\nALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQV\nAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABgOwQVAAAAALZDUAEAAABg\nOwQVAAAAALajTnUHAAAAMM3EuROTMtKTMjL6e3obD5VPxFsoqjp7+dLSVStySouzS4rTZ+W5EhNc\nCQmSLA/09fn6vF3NLc0VVS2VlZXbd1Zu3R7w+SeiG8MrWbn8+MsuKlqyOCkjPTkzU3U5J7kD/v6B\n3o6O3o7O6p27Nj/6ZOW2HZPcgQklXZOQOdV9AAAAwLQxd+1xSRnp5uHWp58bx8adCfErzj5j9UXn\nzz3+OFdCfJSvCvj8h9/ZuvWpZ7c+/Vx/T8849iciR5xrw5WXn/bxj2QWFU70e41KW03tK3/665sP\n/WdKYtu4I6gAAAAgsoTk5Lnrjpu3fm3z4YrXH/xn6OSq88+xXjNeQSWjsODsT19/3CUXRZ9PBgv4\n/Nufff653/6+8dDhcenVYMdfdtFlX/liUmbGBLU/dj1t7f/98d2b//vEVHdkrI7RoFKwaGF/T097\nbd2IVy...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot [39m[32m200[39m [90m378 ms - 139272[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,2027]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"id.co.myhomecredit\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\"...
+[35m[JSONWP Proxy][39m Replacing sessionId a74dd2bb-3c17-4754-aac4-7dd9ddef46ce with f63e0fd8-a9ef-4146-b9bf-ba14f61781ff
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/source [39m[32m200[39m [90m426 ms - 39230[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzs3Xd8FGXCB\\/BnZnZmtqcnEIJEaui9d6nSQUTBBoi9l7PfeepZ37tTzt7F\\nggiICIgQeuhIE+k1QAikl+27U94\\/Nmw2bXuSSfh9P\\/yRnX3mmWdDAvObp1Hnm3YnAAAAAAAASkLX\\ndwMAAAAAAAAqQ1ABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVAB\\nAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAA\\nAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADF\\nQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVAB\\nAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFUdV3AwAA\\nAACggVGlpvB9uvO9uwpnzpd+8l3tXIPhOqVxXTuoWqSwqSlMk0RKq6G0GoqmJYtVttrE3ALh\\/EUh\\nM8v513Hnn0dlp7NWmuET16W9dsJItn0bJjaajouheK6OGyDbHFJRsVhU4jpywvrbBuehY3XcgFpF\\nnW\\/avb7bAAAAAAANRvwnb\\/F9e5S9kKVLPcZGsHJKo9bcMFAzdjjfswulUQd4lux0Og8csaVvsa3b\\nIpksEWxPtSie004Zq799miqlaW1fKyhC1mXz98usv6ypl9gWcQgqAAAAAF...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAjGCAIAAACLSunFAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzs3Xd8FGXCB/BnZnZmtqcnEIJEaui9d6nSQUTBBoi9l7PfeepZ37tTzt7F\nggiICIgQeuhIE+k1QAikl+27U94/Nmw2bXuSSfh9P/yRnX3mmWdDAvObp1Hnm3YnAAAAAAAASkLX\ndwMAAAAAAAAqQ1ABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVAB\nAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAA\nAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADF\nQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVAB\nAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFQVABAAAAAADFUdV3AwAA\nAACggVGlpvB9uvO9uwpnzpd+8l3tXIPhOqVxXTuoWqSwqSlMk0RKq6G0GoqmJYtVttrE3ALh/EUh\nM8v513Hnn0dlp7NWmuET16W9dsJItn0bJjaajouheK6OGyDbHFJRsVhU4jpywvrbBuehY3XcgFpF\nnW/avb7bAAAAAAANRvwnb/F9e5S9kKVLPcZGsHJKo9bcMFAzdjjfswulUQd4lux0Og8csaVvsa3b\nIpksEWxPtSie004Zq799miqlaW1fKyhC1mXz98usv6ypl9gWcQgqAAAAAFA92qjne3fje3V1ZV60\n/LTCfbDZgXTvMpe6j47ItVTNmujn3KIdNyLwfFKV7HTa1m8zffmjcPZ8RFpVlXbCSOPj85i4mFqq\nP3xiQV...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff/screenshot [39m[32m200[39m [90m793 ms - 958456[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.deleteSession() with args: ["f63e0fd8-a9ef-4146-b9bf-ba14f61781ff"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1581822412744 (10:06:52 GMT+0700 (SE Asia Standard Time))
+[35m[Appium][39m Removing session f63e0fd8-a9ef-4146-b9bf-ba14f61781ff from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[JSONWP Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:8223/wd/hub/session/a74dd2bb-3c17-4754-aac4-7dd9ddef46ce] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"a74dd2bb-3c17-4754-aac4-7dd9ddef46ce\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b shell am force-stop com.android.settings'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8223 
+[debug] [35m[ADB][39m Running 'C:\Users\Fhadel Fadillah\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 32d5d90b forward --remove tcp\:8223'
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1581822413180 (10:06:53 GMT+0700 (SE Asia Standard Time))
+[debug] [35m[W3C][39m Received response: null
+[debug] [35m[W3C][39m But deleting session, so not returning
+[debug] [35m[W3C][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/f63e0fd8-a9ef-4146-b9bf-ba14f61781ff [39m[32m200[39m [90m437 ms - 14[39m
+[35m[HTTP][39m [90m[39m
