@@ -1,28 +1,29 @@
 
-## For Your Information
+# For Your Information
 Here is the information that you should know about my project:
 
-1. Katalon version
+## Katalon version
 ```
 KATALON 6.3.3
 ```
-3. Node version 
+## Node version 
 ```
 8.11.1
 ```
 
-2. Appium version
+## Appium version
 ```
 1.8.1
 ```
 
-3. Device Spec 
+## Device Spec 
 ```
 POCOPHONE F1 ( Android 9 PIE )
 ```
 
+
+## Scenario that i've tested is 
 ```
-Scenario that i've tested is 
 	- Install My homecredit mobile app from play store here
 	- Open the app
 	- Swipe left / swipe right the page in on boarding page after app installed
